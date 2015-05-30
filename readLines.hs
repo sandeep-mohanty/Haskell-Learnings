@@ -1,2 +1,2 @@
-main = interact wordCount
-		where wordCount input = show (length (lines input) ) ++ "\n"
+main = interact linesCount
+		where linesCount input = show (length (lines input) ) ++ "\n"
